@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login en PHP</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-md-offset-4">
+                <div class="account-wall">
+                    <img class="profile-img" src="https://www.ourmycis.com/mycis_ws/user_image/user-default.png"
+                        alt="">
+                        <form class="form-signin" method="post" action="login.php">
+                            <input type="text" class="form-control" placeholder="nombre de usuario" name="username" required autofocus>
+                            <input type="password" class="form-control" placeholder="contraseña" name="password" required>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesion</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
