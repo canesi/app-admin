@@ -11,12 +11,8 @@ define('USER','root');
 define('PASS','');
 
 /* nombre de bases de datos */
-//base de datos master
-define('DBMASTER','master_db');
-//base de datos colgate
-define('DBCP','scm_mercadeo');
-//base de datos kimberly clark
-define('DBKC','mycis_kc');
+//base de datos contact
+define('DB','contact_db');
 //aqui en adelante definir solo los nombre de las nuevas bases de datos que se creen
 
 ?>

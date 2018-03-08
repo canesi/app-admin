@@ -6,20 +6,14 @@
 	class Conexion{
 
 		/*metodo para conectar a la base de datos master */
-		public function conectar_master(){
-			$con = mysqli_connect(HOST,USER,PASS,DBMASTER);		
+		public function conectar(){
+			$con = mysqli_connect(HOST,USER,PASS,DB);		
 			return $con;	
 		}
 
-		/*metodo para conectar a la base de datos mycis kc */
-		public function conectar_kc(){
-			$con = mysqli_connect(HOST,USER,PASS,DBKC);		
-			return $con;	
-		}
-		
-		/*metodo para desconectarse de la base de datos*/
 		public function desconectar(){
-			mysqli_close($con);
+			$con = mysqli_connect(HOST,USER,PASS,DB);	
+			mysql_close($con);
 		}
 	}
 	
