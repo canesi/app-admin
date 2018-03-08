@@ -8,7 +8,7 @@ define('HOST','localhost');
 //nombre de usuario
 define('USER','root');
 //password de la base de datos
-define('PASS','');
+define('PASS','123456');
 
 /* nombre de bases de datos */
 //base de datos contact
